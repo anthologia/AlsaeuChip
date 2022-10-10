@@ -3,7 +3,9 @@ import java.util.Scanner;
 
 class Person implements Comparable<Person>{
     String name;
-    int kor, eng, math;
+    int kor;
+    int eng;
+    int math;
 
     Person(String name, int kor, int eng, int math) {
         this.name = name;
